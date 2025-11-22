@@ -1,0 +1,16 @@
+Package: SDS375HW6
+Title: Sparse Vector Transformations Across Multiple Sparse Vectors
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kevin", family = "Lynch", email = "kdlynch@utexas.edu", role = c('aut', 'cre'))
+Description: This package contains sparse vector functions, which add, subtract, multiply, divide, and take the cross product of two vectors. In additon to this, this package also contains mean, normalized, and standardized functions, which result in the mean, normalized values, and standardized values of a given sparse vector. These functions can also convert numeric vectors to sparse vectors, and vice versa.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+  methods,
+  stats
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
