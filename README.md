@@ -1,0 +1,24 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# SDS375HW6
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of this package is to provide the user with a multitude of
+basic necessary functions surrounding sparse vectors. This package
+contains sparse vector functions, which add, subtract, multiply, divide,
+and take the cross product of two vectors. In additon to this, this
+package also contains mean, normalized, and standardized functions,
+which result in the mean, normalized values, and standardized values of
+a given sparse vector. These functions can also convert numeric vectors
+to sparse vectors, and vice versa.
+
+## Installation
+
+You can install the development version of SDS375HW6 like so:
+
+``` r
+devtools::install_github("kdlynch55/SDS375HW6")
+```
