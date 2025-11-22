@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # SDS375HW6
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/kdlynch55/Homework6/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kdlynch55/Homework6/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of this package is to provide the user with a multitude of basic necessary functions surrounding sparse vectors. This package contains sparse vector functions, which add, subtract, multiply, divide, and take the cross product of two vectors. In additon to this, this package also contains mean, normalized, and standardized functions, which result in the mean, normalized values, and standardized values of a given sparse vector. These functions can also convert numeric vectors to sparse vectors, and vice versa.
